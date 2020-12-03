@@ -17,6 +17,6 @@ const lista =
 
 lista.map(lista => (elemento) => {
     if (elemento.startMinute % 2 != 0) {
-        console.log("aula inicia em minuto impar")
+        console.log(`aula inicia em minuto impar: ${elemento.startMinute}`)
     }
 })
