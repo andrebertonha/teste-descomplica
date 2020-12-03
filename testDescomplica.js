@@ -14,9 +14,11 @@ const lista =
     },
 ];
 
-
-lista.map(lista => (elemento) => {
-    if (elemento.startMinute % 2 != 0) {
-        console.log(`aula inicia em minuto impar: ${elemento.startMinute}`)
-    }
-})
+function aulasMinutoImpar() {
+    lista.map(lista => (elemento) => {
+        if (elemento.startMinute % 2 != 0) {
+            return elemento.startMinute;
+            console.log(`aula inicia em minuto impar: ${elemento.startMinute}`)
+        }
+    });
+}
