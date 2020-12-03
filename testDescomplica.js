@@ -17,8 +17,8 @@ const lista =
 function aulasMinutoImpar() {
     lista.map(lista => (elemento) => {
         if (elemento.startMinute % 2 != 0) {
-            return elemento.startMinute;
             console.log(`aula inicia em minuto impar: ${elemento.startMinute}`)
+            return elemento.startMinute;            
         }
     });
 }
