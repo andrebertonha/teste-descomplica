@@ -1,4 +1,4 @@
-
+// questao 1
 const lista =
 
 [
@@ -22,3 +22,21 @@ function aulasMinutoImpar() {
         }
     });
 }
+
+// questao 2
+
+function ocorrPalavraFrase(str, keepCase) {
+    if (!keepCase) str = str.toLowerCase();
+    var obj = {};
+    for (var i = 0; i < str.length; i++) {
+        if (!obj[str[i]]) obj[str[i]] = 0;
+        obj[str[i]]++;
+    }
+    return obj;
+}
+
+var a = ocorrPalavraFrase("hello");
+var b = ocorrPalavraFrase("AaBbC");
+var c = ocorrPalavraFrase("AaBbC", true);
+
+console.log(a, b, c);
