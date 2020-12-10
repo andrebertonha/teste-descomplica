@@ -40,3 +40,8 @@ var b = ocorrPalavraFrase("AaBbC");
 var c = ocorrPalavraFrase("AaBbC", true);
 
 console.log(a, b, c);
+
+/**
+questao 3
+Utilizaria uma biblioteca do github para migração dos dados do banco de dados atual para base de dados em postgres
+ */
