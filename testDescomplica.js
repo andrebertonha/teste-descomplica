@@ -45,3 +45,8 @@ console.log(a, b, c);
 questao 3
 Utilizaria uma biblioteca do github para migração dos dados do banco de dados atual para base de dados em postgres
  */
+
+ // questao 4
+ // thread
+
+ // questao 5
